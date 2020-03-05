@@ -46,8 +46,9 @@
     height: 4px;
     border-radius: 5px;
     background-color: #00acdc; }
-  .is-active:first-child {
-    margin: 0; }
+
+.is-active:first-child {
+  margin: 0; }
 
 .card {
   display: -webkit-box;
@@ -59,7 +60,7 @@
           flex-direction: column;
   width: 200px;
   height: 403px;
-  padding: 0 14px;
+  padding: 30px 14px 0;
   margin-bottom: 50px;
   margin-right: 48px;
   -webkit-box-sizing: border-box;
@@ -70,8 +71,7 @@
     width: 160px;
     height: 134px;
     margin: 0 auto;
-    padding-top: 30px;
-    padding-bottom: 45px; }
+    margin-bottom: 45px; }
   .card__name {
     font-weight: 500;
     font-size: 12px;
@@ -165,13 +165,10 @@ h3 {
   display: flex;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
+  width: calc((200px * 4) + (48px * 3));
   margin: 0 auto;
   padding: 0 40px;
   font-size: 11px;
   line-height: 13px; }
-  @media (min-width: 1200px) {
-    .main {
-      max-width: calc((200px * 4) + (48px * 3));
-      padding: 0 128px; } }
 
 /*# sourceMappingURL=main.css.map */

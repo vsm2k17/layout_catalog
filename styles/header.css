@@ -46,7 +46,8 @@
     height: 4px;
     border-radius: 5px;
     background-color: #00acdc; }
-  .is-active:first-child {
-    margin: 0; }
+
+.is-active:first-child {
+  margin: 0; }
 
 /*# sourceMappingURL=header.css.map */
