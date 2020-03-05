@@ -152,19 +152,19 @@
     color: #fff;
     background-color: #00acdc;
     border: 1px solid #00acdc;
-    -webkit-transition: background-color 0.5s, color 0.5s;
-    transition: background-color 0.5s, color 0.5s; }
+    -webkit-transition: background-color 1s, color 1s ease-in-out;
+    transition: background-color 1s, color 1s ease-in-out; }
+    .card__button:hover {
+      border-radius: 5px;
+      background-color: #fff;
+      cursor: pointer; }
+    .card__button:hover > a {
+      color: #00acdc; }
   .card__link {
     text-decoration: none;
-    color: #fff; }
-
-.card__button:hover {
-  border-radius: 5px;
-  background-color: #fff;
-  cursor: pointer; }
-
-.card__button:hover > a {
-  color: #00acdc; }
+    color: #fff;
+    -webkit-transition: color 1s ease-in-out;
+    transition: color 1s ease-in-out; }
 
 .main .card:nth-child(4n+4) {
   margin-right: 0; }
