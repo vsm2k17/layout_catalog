@@ -30,8 +30,8 @@
     line-height: 60px;
     font-size: 12px;
     color: black;
-    -webkit-transition: color 0.5s;
-    transition: color 0.5s; }
+    -webkit-transition: color 0.2s;
+    transition: color 0.2s; }
     .nav__link:hover {
       color: #00acdc; }
 
@@ -63,8 +63,6 @@
   width: 200px;
   height: 403px;
   padding: 0 14px;
-  margin-bottom: 50px;
-  margin-right: 48px;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   border: 1px solid #f3f3f3;
@@ -114,8 +112,8 @@
         -ms-flex-align: center;
             align-items: center; }
   .card__count-review {
-    -webkit-transition: color 0.5s;
-    transition: color 0.5s; }
+    -webkit-transition: color 0.3s;
+    transition: color 0.3s; }
     .card__count-review:hover {
       color: #00acdc;
       cursor: pointer; }
@@ -152,8 +150,8 @@
     color: #fff;
     background-color: #00acdc;
     border: 1px solid #00acdc;
-    -webkit-transition: background-color 1s, color 1s ease-in-out;
-    transition: background-color 1s, color 1s ease-in-out; }
+    -webkit-transition: background-color 0.3s, color 0.3s ease-in-out;
+    transition: background-color 0.3s, color 0.3s ease-in-out; }
     .card__button:hover {
       border-radius: 5px;
       background-color: #fff;
@@ -163,8 +161,8 @@
   .card__link {
     text-decoration: none;
     color: #fff;
-    -webkit-transition: color 1s ease-in-out;
-    transition: color 1s ease-in-out; }
+    -webkit-transition: color 0.3s ease-in-out;
+    transition: color 0.3s ease-in-out; }
 
 .main .card:nth-child(4n+4) {
   margin-right: 0; }
@@ -182,11 +180,10 @@ h3 {
   font-family: "Roboto", sans-serif; }
 
 .main {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  justify-items: center;
+  gap: 50px 48px;
   width: calc((200px * 4) + (48px * 3));
   margin: 0 auto;
   padding: 0 40px;

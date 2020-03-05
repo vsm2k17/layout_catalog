@@ -30,8 +30,8 @@
     line-height: 60px;
     font-size: 12px;
     color: black;
-    -webkit-transition: color 0.5s;
-    transition: color 0.5s; }
+    -webkit-transition: color 0.2s;
+    transition: color 0.2s; }
     .nav__link:hover {
       color: #00acdc; }
 
